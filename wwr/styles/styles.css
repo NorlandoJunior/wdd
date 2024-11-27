@@ -63,7 +63,6 @@ main {
 .hero img {
     max-width: 25%;
     height: 60%;
-    position: center;
     display: inline-block;
 }
 .hero h1 {
