@@ -118,10 +118,10 @@ main {
 
 /* Footer */
 footer .social-icons img {
-    width: 30px; /* Define a largura fixa das logos */
-    height: 30px; /* Define a altura fixa para uniformidade */
-    object-fit: contain; /* Garante que a imagem seja redimensionada mantendo sua proporção */
-    transition: transform 0.3s ease, opacity 0.3s; /* Adiciona animação suave */
+    width: 20px; 
+    height: 20px; 
+    object-fit: contain; 
+    transition: transform 0.3s ease, opacity 0.3s;
 }
 
 footer .social-icons a:hover img {
