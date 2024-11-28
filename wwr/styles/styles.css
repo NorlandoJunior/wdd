@@ -119,7 +119,7 @@ main {
 /* Footer */
 footer {
     text-align: rigth;
-    padding: 20px;
+    padding: 40px;
     background-color: var(--dark-green);
     color: white;
     display: flex; 
