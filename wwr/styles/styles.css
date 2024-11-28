@@ -21,7 +21,8 @@ h1, h2 {
 
 /* Header */
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
     justify-content: space-between;
     background-color: var(--dark-green);
@@ -37,6 +38,7 @@ nav a {
     color: white;
     margin: 0 10px;
     font-weight: 600;
+    
 }
 
 nav a:hover {
@@ -75,6 +77,9 @@ main {
 
 /* History Section */
 .history {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
     background-color: var(--light-beige);
     padding: 20px;
     margin: 20px auto;
