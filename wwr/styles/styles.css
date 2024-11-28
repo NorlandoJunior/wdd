@@ -117,18 +117,29 @@ main {
 }
 
 /* Footer */
-footer { 
-    padding:20px;
+footer {
+    text-align: left; /* Alinha o texto do copyright à esquerda */
+    padding: 20px;
+    background-color: var(--dark-green); /* Cor do background restaurada */
+    color: white;
+    display: flex; /* Usar Flexbox para organizar elementos */
+    justify-content: space-between; /* Divide o espaço entre os itens */
+    align-items: center; /* Centraliza verticalmente os itens */
 }
 
-footer .social-icons img {
-    width: 20px; 
-    height: 20px; 
+footer .social-icons {
+    display: flex; 
+    gap: 10px; 
+}
+
+footer .social-icons a img {
+    width: 30px; 
+    height: 30px; 
     object-fit: contain; 
-    transition: transform 0.3s ease, opacity 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
 }
 
 footer .social-icons a:hover img {
-    transform: scale(1.1); 
-    opacity: 0.8; 
+    transform: scale(1.1);
+    opacity: 0.8;
 }
