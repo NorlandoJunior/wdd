@@ -118,13 +118,13 @@ main {
 
 /* Footer */
 footer {
-    text-align: left; /* Alinha o texto do copyright à esquerda */
+    text-align: rigth;
     padding: 20px;
-    background-color: var(--dark-green); /* Cor do background restaurada */
+    background-color: var(--dark-green);
     color: white;
-    display: flex; /* Usar Flexbox para organizar elementos */
-    justify-content: space-between; /* Divide o espaço entre os itens */
-    align-items: center; /* Centraliza verticalmente os itens */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
 }
 
 footer .social-icons {
