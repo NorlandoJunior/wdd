@@ -118,7 +118,7 @@ main {
 
 /* Footer */
 footer .social-icons img {
-    width: 25px;
+    width: 10px;
     height: auto; 
     transition: transform 0.3s ease, opacity 0.3s;
 }
