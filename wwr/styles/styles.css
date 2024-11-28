@@ -117,6 +117,10 @@ main {
 }
 
 /* Footer */
+footer { 
+    padding:20px;
+}
+
 footer .social-icons img {
     width: 20px; 
     height: 20px; 
