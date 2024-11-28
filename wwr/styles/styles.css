@@ -69,7 +69,7 @@ main {
 }
 .hero h1 {
     font-size: 2.5rem;
-    background: rgba(0, 0, 0);
+    background: var(--dark-blue);
     padding: 10px 20px;
     display: inline-block;
     border-radius: 5px;
@@ -118,10 +118,10 @@ main {
 
 /* Footer */
 footer {
-    display: flex; /* Flexbox no footer */
-    justify-content: space-between; /* Espaço entre o texto e as redes sociais */
-    align-items: center; /* Alinha os itens verticalmente */
-    background-color: var(--dark-green); /* Cor de fundo */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: var(--dark-green); 
     padding: 20px;
     color: white;
 }
