@@ -68,7 +68,7 @@ main {
 }
 .hero h1 {
     font-size: 2.5rem;
-    background: #cfcfb4;
+    background-color: #cfcfb4;
     color: black;    
     padding: 10px 20px;
     display: inline-block;
