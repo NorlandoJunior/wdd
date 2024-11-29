@@ -55,7 +55,7 @@ main {
 .hero {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
     background: url('images/hero-image.jpg') no-repeat center center / cover;
     height: 400px;
     display: flex;
